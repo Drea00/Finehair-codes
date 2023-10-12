@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  
+  
+    .addto {
+    position: relative;
+    width: 123px;
+    height: 22px;
+}
+
+.addto .roup {
+    position: relative;
+    width: auto;
+    height: 22px;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.addto .text-wrapper {
+    position: absolute;
+    width: 99px;
+    top: 0;
+    left: 0;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #000000;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.addto .plus {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    top: 5px;
+    left: 103px;
+    cursor: pointer;
+}
+
+.addto .counting {
+  position: relative;
+  width: auto;
+  height: 39px;
+  display: none;
+  
+}
+
+.addto .counting .element {
+  position: relative;
+  width: auto;
+  height: 39px;
+  top: 0;
+  left: 0; 
+}
+
+.addto .counting .overlap {
+  width: 25px;
+  top: 0;
+  left: -1px;
+  position: absolute;
+  height: 37px;
+}
+
+.addto .counting .vector {
+  top: 4px;
+  position: absolute;
+  width: 25px;
+  height: 22px;
+  left: 0;
+  cursor: pointer;
+}
+
+.addto .counting .text-wrapper {
+  left: 5px;
+  position: absolute;
+  width: 19px;
+  top: 0;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 3.35px;
+  line-height: normal;
+}
+
+.addto .counting .overlap-group {
+  width: 27px;
+  top: 1px;
+  left: 52px;
+  position: absolute;
+  height: 37px;
+}
+
+.addto .counting .img {
+  top: 3px;
+  position:relative;
+  width: 25px;
+  height: 22px;
+  left: 1svw;
+  cursor: pointer;
+}
+
+.addto .counting .div {
+  left: 7px;
+  position: absolute;
+  width: 19px;
+  top: 0;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 3.35px;
+  line-height: normal;
+}
+
+.addto .counting .text-wrapper-2 {
+  position: relative;
+  width: 5px;
+  top: 0;
+  left:2.2svw;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 3.35px;
+  line-height: normal;
+}
+
+ @media screen and (max-width: 590px) {
+
+  .addto {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.addto .roup {
+    position: relative;
+    width: auto;
+    height: 13px;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.addto .text-wrapper {
+    position: absolute;
+    width: 48px;
+    top: 0;
+    left: 0;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #000000;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.addto .plus {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 0px;
+    left: 49px;
+    cursor: pointer;
+}
+
+.addto .counting {
+  position: relative;
+  width: auto;
+  height: 26px;
+  display: none;
+  
+}
+
+.addto .counting .element {
+  position: relative;
+  width: auto;
+  height: 26px;
+  top: 0;
+  left: 0; 
+}
+
+.addto .counting .overlap {
+  width: 16px;
+  top: 0;
+  left: -1px;
+  position: absolute;
+  height: 25px;
+}
+
+.addto .counting .vector {
+  top: 3px;
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  left: 0;
+  cursor: pointer;
+}
+
+.addto .counting .text-wrapper {
+  left: 3px;
+  position: absolute;
+  width: 13px;
+  top: 0;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: normal;
+}
+
+.addto .counting .overlap-group {
+  width: 18px;
+  top: 1px;
+  left: 35px;
+  position: absolute;
+  height: 25px;
+}
+
+.addto .counting .img {
+  top: 2px;
+  position:relative;
+  width: 16px;
+  height: 14px;
+  left: 0svw;
+  cursor: pointer;
+}
+
+.addto .counting .div {
+  left: 5px;
+  position: absolute;
+  width: 13px;
+  top: 0;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: normal;
+}
+
+.addto .counting .text-wrapper-2 {
+  position: relative;
+  width: 5px;
+  top: 0;
+  left:22px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 2.18px;
+  line-height: normal;
+}
+  
+ }

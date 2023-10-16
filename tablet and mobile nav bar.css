@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  .tabandmob{
+    @media screen and  (max-width: 1440px) and (min-width: 1071px) {
+        display: none;
+    }
+}
+.Navrame {
+display: flex;
+width:auto;
+height: 78px;
+align-items: center;
+position: relative;
+align-items: center;
+justify-content: space-between;
+}
+
+.Navrame .img {
+position: relative;
+flex: 0 0 auto;
+}
+
+.Navrame .div {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+position: relative;
+flex: 0 0 auto;
+}
+
+.Navrame .group {
+position: relative;
+width: 137px;
+height: 33px;
+}
+
+.Navrame .overlap-group-wrapper {
+width: 139px;
+height: 33px;
+}
+.Navrame .overlap-group:hover {
+transform: scale(1.1);
+transition: transform 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.Navrame .overlap-group {
+position: relative;
+width: 137px;
+height: 33px;
+background-color: #ff5500;
+}
+
+.Navrame .text-wrapper {
+position: absolute;
+width: 110px;
+top: 10px;
+left: 13px;
+font-family: Playfair Display;
+font-weight: 600;
+color: #ffffff;
+font-size: 12px;
+text-align: center;
+letter-spacing: 0;
+line-height: 12px;
+white-space: nowrap;
+transition: transform 0.2s ease-in-out;
+cursor: pointer;
+}
+.Navrame .text-wrapper:hover {
+transform: scale(1.1);
+transition: transform 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.Navrame .shop-icon {
+position: relative;
+width: 25.48px;
+height: 27.18px;
+
+}
+.Navrame .shop-icon:hover {
+transform: scale(1.2);
+transition: transform 0.2s ease-in-out;
+cursor: pointer;
+}
+.Navrame .vector {
+position: relative;
+width: 44px;
+height: 21px;
+}
+.Navrame .vector:hover {
+transform: scale(1.2);
+transition: transform 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.Navrame .tabmenu {
+display: none; /* Hide menu by default */
+list-style: none;
+padding: 33px 44px 33px 44px;
+margin-top: 50px;
+}
+
+.Navrame .tabmenu  li {
+padding: 20px;
+color:  #5c202f;
+cursor: pointer;
+border-bottom: 1px solid #A69F9F;
+}
+.Navrame .tabmenu {
+display: none; /* Hide menu in tablet view by default */
+justify-content: center;
+text-align: center;
+flex-direction: column;
+position: absolute;
+top: 45px;
+right: 10px;
+background-color: #ffffff;
+border: 1px solid #A69F9F;
+border-radius: 10px;
+margin-right: 30px;
+}
+
+.Navrame .tabmenu li {
+border-bottom: 1px solid #A69F9F;
+}
+
+.Navrame .show-menu {
+display: flex; /* Show menu when the hamburger is clicked */
+}
+.Navrame .btnn {
+background-color: #5c202f; 
+border: none; 
+color: white; padding: 10px; 
+}
+
+.Navrame .btnn a{
+color: white;
+}
+.Navrame .tabmenu a {
+    text-decoration: none;
+color:#5c202f;
+}
+@media screen and (max-width: 690px) {
+.Navrame {
+display: none;
+}
+
+}
+
+
+.mobilenavbar {
+display: flex;
+align-items: center;
+justify-content: space-between; /* Adjust alignment */
+background-color:none;
+padding: 10px;
+color: #5c202f;
+}
+
+.mobilenavbar .logo {
+width: 100px; /* Set the width of your logo image */
+}
+
+.mobilenavbar .hamburger-menu {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 30px;
+height: 20px;
+cursor: pointer;
+transition: transform 0.2s ease-in-out; /* Add transition for smooth animation */
+}
+
+.mobilenavbar .line {
+width: 100%;
+height: 3px;
+background-color: white;
+}
+
+.mobilenavbar .menu {
+display: none; /* Hide menu by default */
+list-style: none;
+padding: 33px 44px 33px 44px;
+margin-top: 0px;
+}
+
+.mobilenavbar .menu li {
+padding: 20px;
+color:  #5c202f;
+cursor: pointer;
+border-bottom: 1px solid #A69F9F;
+}
+.mobile-icon {
+display: inline-flex;
+left:0;
+gap: 6px;
+position: relative;
+cursor: pointer;
+margin-bottom: 10px;
+}
+.mobile-icon:hover {
+cursor: pointer;
+transform: scale(1.2);
+transition: transform 0.2s ease-in-out;
+
+}
+.mobile-icon mobileshop-icon {
+position: relative;
+width: 10px;
+height: 13px;
+margin-left: -0.2px
+}
+.mobile-icon .icon-wrapper {
+position: relative;
+width: fit-content;
+font-family: Poppins;
+font-weight: 400;
+color: #000000;
+font-size: 10px;
+letter-spacing: 0;
+line-height: normal;
+}
+
+/* Add tablet view media query */
+@media screen and (max-width: 1070px) and (min-width: 690px) {
+.mobilenavbar {
+display: none; /* Show hamburger menu in tablet view */
+}
+}
+
+@media screen and (max-width: 690px) {
+.mobilenavbar .hamburger-menu {
+display: flex; /* Show hamburger menu in tablet view */
+}
+
+.mobilenavbar .menu {
+display: none; /* Hide menu in tablet view by default */
+justify-content: center;
+text-align: center;
+flex-direction: column;
+position: absolute;
+top: 45px;
+right: 10px;
+background-color: #ffffff;
+border: 1px solid #A69F9F;
+border-radius: 10px;
+  margin-right: 30px;
+}
+
+.mobilenavbar .menu li {
+border-bottom: 1px solid #A69F9F;
+}
+
+.mobilenavbar .show-menu {
+display: flex; /* Show menu when the hamburger is clicked */
+}
+.mobilenavbar .btnn {
+background-color: #5c202f; 
+border: none; 
+color: white; padding: 10px; 
+}
+
+.mobilenavbar .btnn a{
+color: white;
+}
+.mobilenavbar .menu a {
+    text-decoration: none;
+color:#5c202f;
+}
+}

@@ -156,6 +156,9 @@ height: 14px;
 left: 0;
 cursor: pointer;
 }
+  .carrt .counting .vector:hover {
+    transform: scale(1.2);
+  }
 
 .carrt .counting .text-wrapper {
 left: 3px;
@@ -186,7 +189,9 @@ height: 14px;
 left: 0svw;
 cursor: pointer;
 }
-
+.carrt .counting .img:hover {
+    transform: scale(1.2);
+  }
 .carrt .counting .img:hover{
   transform: scale(1.5);
 }

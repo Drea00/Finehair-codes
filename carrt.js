@@ -1,56 +1,33 @@
-let numberDisplay = document.querySelector(".text-wrapper-2");   
-        let increaseButton = document.querySelector(".vector");
-        let decreaseButton = document.querySelector(".img");
+ // Get references to the HTML elements
+ const vector = document.querySelectorAll('.vector');
+ const img = document.querySelectorAll('.img');
+ const textWrapper2 = document.querySelectorAll('.text-wrapper-2');
 
-        let number = 1; // Initialize the number to 1
+ // Function to handle the increment and decrement
+ function handleCount(index, increment) {
+   let count = parseInt(textWrapper2[index].textContent, 10);
+   
+   if (increment) {
+     count++;
+   } else {
+     if (count > 0) {
+       count--;
+     }
+   }
 
-        // Function to update and display the number
-        function updateNumber() {
-        numberDisplay.textContent = number;
-        }
+   textWrapper2[index].textContent = count;
+ }
 
-        // Event listener for the increase button
-        increaseButton.addEventListener('click', function () {
-        number++;
-        updateNumber();
-        });
+ // Add click event listeners to the .vector elements
+ vector.forEach((element, index) => {
+   element.addEventListener('click', () => {
+     handleCount(index, true);
+   });
+ });
 
-        // Event listener for the decrease button
-        decreaseButton.addEventListener('click', function () {
-        if (number > 0) {
-        number--;
-        updateNumber();
-        }
-        });
-
-        // Initial display
-        updateNumber();
-
-
-        let num = document.querySelector("#num");   
-        let increase = document.querySelector("#add");
-        let decrease = document.querySelector("#minus");
-
-        let numb = 1; // Initialize the number to 1
-
-        // Function to update and display the number
-        function updateNumb() {
-        num.textContent = numb;
-        }
-
-        // Event listener for the increase button
-        increase.addEventListener('click', function () {
-        numb++;
-        updateNumb();
-        });
-
-        // Event listener for the decrease button
-        decrease.addEventListener('click', function () {
-        if (numb > 0) {
-        numb--;
-        updateNumb();
-        }
-        });
-
-        // Initial display
-        updateNumb();
+ // Add click event listeners to the .img elements
+ img.forEach((element, index) => {
+   element.addEventListener('click', () => {
+     handleCount(index, false);
+   });
+ });

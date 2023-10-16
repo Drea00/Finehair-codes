@@ -60,6 +60,9 @@ height: 22px;
 left: 0;
 cursor: pointer;
 }
+.carrt .counting .vector:hover {
+  transform: scale(1.2);
+}
 
 .carrt  .counting .text-wrapper {
 left: 5px;
@@ -89,6 +92,9 @@ width: 25px;
 height: 22px;
 left: 1svw;
 cursor: pointer;
+}
+.carrt .counting .img:hover {
+  transform: scale(1.2);
 }
 
 .carrt  .counting .div {
@@ -179,6 +185,10 @@ width: 16px;
 height: 14px;
 left: 0svw;
 cursor: pointer;
+}
+
+.carrt .counting .img:hover{
+  transform: scale(1.5);
 }
 
 .carrt .counting .div {
@@ -372,6 +382,9 @@ height: 14px;
 left: 0;
 cursor: pointer;
 }
+.mobile-carrt .counting .vector:hover {
+  transform: scale(1.2);
+}
 
 .mobile-carrt .counting .text-wrapper {
 left: 3px;
@@ -400,6 +413,9 @@ width: 16px;
 height: 14px;
 left: 0svw;
 cursor: pointer;
+}
+.mobile-carrt .counting .img:hover {
+  transform: scale(1.2);
 }
 
 .mobile-carrt .counting .div {
